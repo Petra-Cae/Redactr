@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Redactr</title>
+</head>
+<body>
+    <h1>Redactr</h1>
+
+    <div>
+        <label for="originalText"><b>Original Text</b></label>
+        <textarea id="originalText" class="originalText" rows="10" cols="30"></textarea>
+    </div>
+    <div>
+        <label for="wordsToRedact">Words to be redacted</label>
+        <input type="text" id="wordsToRedact" placeholder="Enter words separated by spaces">
+    </div>
+    <div>
+        <label for="replacementText">Replacement Text</label>
+        <input type="text" id="replacementText" value="" placeholder="Enter replacement text">
+    </div>
+    <button id="redactButton" class="redactButton">Redact Now</button>
+    <div>
+        <h2>Redacted Text</h2>
+        <p id="redactedText" class="redactedText"></p>
+    </div>
+    <div>
+        <h2>Statistics</h2>
+        <p id="stats" class="stats"></p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
