@@ -1,0 +1,56 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Center-align everything */
+  body {
+    font-family: cursive;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  h1, h2 {
+    font-size: 36px;
+    color: #FF0000;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .originalText, input[type="text"], textarea, .redactedText, .stats {
+    width: 120%;
+    margin: 10px auto;
+    display: block;
+  }
+  
+  /* Style the input fields */
+  input[type="text"], textarea {
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+  
+  .redactButton {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
